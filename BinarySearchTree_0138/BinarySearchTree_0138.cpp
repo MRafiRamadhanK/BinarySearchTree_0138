@@ -44,5 +44,8 @@ public :
 
 		}
 	}
-
+	void search(string element, Node*& parent, Node*& currentNode) {
+		currentNode = ROOT;
+		parent = NULL;
+	}
 };
